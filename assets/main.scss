@@ -1,0 +1,65 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+// Define warm/sepia dark mode colors
+$sepia-background-start: #3b2f2f;  // Warm dark brown background start
+$sepia-background-end: #2e2626;    // Even darker brown background end
+$sepia-text-color: #e4d7c5;        // Light tan text color
+$sepia-link-color: #d1a57d;        // Warm tan link color
+$sepia-link-hover-color: #e7b98b;  // Brighter tan color on hover
+$sepia-code-background: #4a3b3b;   // Darker brown for code blocks
+$sepia-hr-color: #d1a57d;          // Tan color for horizontal rules
+
+// Stop letting scrollbar push the content over when it appears
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+// Apply the warm/sepia dark mode gradient background
+body {
+  background: linear-gradient(135deg, $sepia-background-start 0%, $sepia-background-end 100%);
+  color: $sepia-text-color !important;  // Default text color
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $sepia-text-color !important;  // Default for headers
+}
+
+a {
+  color: $sepia-link-color !important;  // Links in warm tan
+}
+
+a:hover {
+  color: $sepia-link-hover-color !important;  // Links on hover in brighter tan
+}
+
+code, pre {
+  color: $sepia-text-color;
+  background-color: $sepia-code-background;  // Match the darker background
+}
+
+hr {
+  border-color: $sepia-hr-color;  // Horizontal rule color
+}
+
+// RSS Link styling
+.rss-subscribe a {
+  position: relative;
+  display: inline-flex;
+  align-items: baseline; /* Align items based on the text baseline */
+}
+
+.rss-subscribe a svg {
+  position: relative;
+  bottom: -2px; /* Slightly lower the icon to align with the text baseline */
+  margin-left: 4px;
+  text-decoration: none; /* Ensure no underline on the icon */
+}
+
+.rss-subscribe a:hover svg {
+  color: $sepia-link-hover-color; /* Change color on hover */
+}

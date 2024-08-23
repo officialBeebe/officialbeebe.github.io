@@ -1,0 +1,48 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+            <li>
+              <div style='width: max-content; margin-top: 8px;'>
+                <!-- Credit to https://www.free-website-hit-counter.com/ for hosting this free website counter! -->
+                <span style='display: flex; justify-content: start;'>Website visits :3</span>
+                <hr style='margin: 4px 0;' />
+                <a href='https://www.free-website-hit-counter.com'>
+                  <img src='https://www.free-website-hit-counter.com/c.php?d=9&id=176704&s=1'  alt='Free Website Hit Counter'>
+                </a>
+              </div>
+            </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+        
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+
+  </div>
+
+  
+
+</footer>
