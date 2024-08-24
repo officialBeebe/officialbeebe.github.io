@@ -47,19 +47,39 @@ hr {
 }
 
 // RSS Link styling
-.rss-subscribe a {
+.rss-subscribe {
   position: relative;
   display: inline-flex;
   align-items: baseline; /* Align items based on the text baseline */
 }
 
-.rss-subscribe a svg {
+.rss-subscribe svg {
   position: relative;
-  bottom: -2px; /* Slightly lower the icon to align with the text baseline */
+  bottom: -3px; /* Slightly lower the icon to align with the text baseline */
   margin-left: 4px;
   text-decoration: none; /* Ensure no underline on the icon */
 }
 
-.rss-subscribe a:hover svg {
+.rss-subscribe:hover svg {
   color: $sepia-link-hover-color; /* Change color on hover */
+}
+
+// Nav menu styling
+.site-nav {
+  background: linear-gradient(135deg, $sepia-background-start 0%, $sepia-background-end 100%);  // Darker background for the nav
+}
+
+@media (min-width: 600px) {
+  .site-nav {
+    background: none; // Transparent background for larger screens
+  }
+} 
+
+.menu-icon svg {
+  fill: $sepia-text-color !important;  // Default text color for the nav trigger
+}
+
+.page-link {
+  text-align: start;
+  margin-left: -4px !important;
 }
