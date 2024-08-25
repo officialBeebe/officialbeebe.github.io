@@ -8,7 +8,7 @@ categories: letters
 
 Dear Anon,
 
-I felt that I should write you a note regarding your strong opinion that Python is for data science only and that the general population has no business learning the language because Python most certainly _is not_ for everyone. Well, I strongly disagreed with that idea, but I didn't get a chance to clearly explain why. I feel like you can stand to gain from what I have to say, so please read on.
+I felt that I should write you a note regarding your strong opinion that Python is for data science only and it certainly _is not_ for everyone. Well, I strongly disagreed with that idea, but I didn't get a chance to clearly explain why. I feel like you can stand to gain from what I have to say, so please read on.
 
 A little over a year ago, I started showing interest in software development, and a good friend of mine mentioned something about pillars and software development, well, I'm not sure if I ended up in the right place but I landed [here](https://www.freecodecamp.org/news/the-main-pillars-of-learning-programming-and-why-beginners-should-master-them-e04245c17c56/) and that was the start of an exciting journey for me as I ended up on the _freeCodeCamp_. I worked through the _HTML_ course and eventually stumbled upon Dr. Chuck's [Python for Everyone](https://www.py4e.com/) course and the rest is history.
 
