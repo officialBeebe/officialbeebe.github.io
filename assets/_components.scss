@@ -1,37 +1,49 @@
-// RSS Link styling
-.rss-subscribe {
-  position: relative;
-  display: inline-flex;
-  align-items: baseline; /* Align items based on the text baseline */
-}
+/*
 
-.rss-subscribe svg {
-  position: relative;
-  bottom: -3px; /* Slightly lower the icon to align with the text baseline */
-  margin-left: 4px;
-  text-decoration: none; /* Ensure no underline on the icon */
-}
+Nav
 
-.rss-subscribe:hover svg {
-  color: $sepia-link-hover-color; /* Change color on hover */
-}
-
-// Nav menu styling
+*/
 .site-nav {
-  background: linear-gradient(135deg, $sepia-background-start 0%, $sepia-background-end 100%);  // Darker background for the nav
+  background: linear-gradient(135deg, $background-start 0%, $background-end 100%);
 }
 
 @media (min-width: 600px) {
   .site-nav {
-    background: none; // Transparent background for larger screens
+    background: none;
   }
 } 
 
 .menu-icon svg {
-  fill: $sepia-text-color !important;  // Default text color for the nav trigger
+  fill: $text-color !important;
 }
 
 .page-link {
   text-align: start;
   margin-left: -4px !important;
+}
+
+
+/*
+
+RSS Link
+
+*/
+.rss-subscribe {
+  display: inline-flex;
+  
+}
+
+.rss-subscribe svg {
+  text-decoration: none; /* Ensure no underline on the icon */
+  width: 1.25em;
+  align-self: stretch;
+}
+
+.rss-subscribe::before {
+  content: "Feed";
+  margin-right: 0.25em;
+}
+
+.rss-subscribe:hover svg {
+  color: $link-hover-color; /* Change color on hover */
 }
