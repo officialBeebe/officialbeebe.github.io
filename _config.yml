@@ -31,8 +31,8 @@ github_username:  officialBeebe
 # Build settings
 theme: minima
 
-minima:
-  skin: dark
+# minima:
+#   skin: dark
 
 plugins:
   - jekyll-feed
