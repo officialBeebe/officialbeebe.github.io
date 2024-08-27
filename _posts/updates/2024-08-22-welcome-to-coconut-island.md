@@ -19,7 +19,7 @@ Some of the content, such as posts to _Blogs_ and _Opinions_, will inherently be
 
 > I'll include a ~~formal~~ set of guidelines for content submissions later on with an ~~official~~ announcement on the home feed. Feel free to subscribe to the site's [RSS Feed](beyondcoconutisland.blog/feed.xml) for now to stay informed. I'm so excited to be sharing a bit about myself with the world here on [Beyond Coconut Island](beyondcoconutisland.blog).
 
-Of course, I encourage any thoughts, comments, critiques, and complaints to be directed to my site's dedicated email @ [email.me.bci@gmail.com](email.me.bci@gmail.com). Kindly prefix your content with your desire to be broadcasted as well, and furthermore, I will never disclose any sender's contact or affiliations. Check out [this video on YouTube](https://www.youtube.com/watch?v=zswyWBtF-7Y&t=555s) if you would like to be exposed to the methods as to how you would create your own platform to host your expressions.
+Of course, I encourage any thoughts, comments, critiques, and complaints to be directed to my site's dedicated email @ [email.me.bci@gmail.com](email.me.bci@gmail.com).
 
 > “The individual has always had to struggle to keep from being overwhelmed by the tribe. If you try it, you will be lonely often, and sometimes frightened. But no price is too high to pay for the privilege of owning yourself.”
 >
