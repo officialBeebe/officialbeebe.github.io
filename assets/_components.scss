@@ -1,34 +1,34 @@
-// _components.scss
-
 // RSS Link styling
 .rss-subscribe {
-  display: inline-flex; /* Removes the preceding underline on hover */
+  position: relative;
+  display: inline-flex;
+  align-items: baseline; /* Align items based on the text baseline */
 }
 
 .rss-subscribe svg {
   position: relative;
-  bottom: -2px; /* Slightly lower the icon to align with the text baseline */
-  width: 1em;
-  stroke: 3px;
+  bottom: -3px; /* Slightly lower the icon to align with the text baseline */
+  margin-left: 4px;
+  text-decoration: none; /* Ensure no underline on the icon */
 }
 
 .rss-subscribe:hover svg {
-  color: $link-hover-color;  // Hover color for SVG in RSS link
+  color: $sepia-link-hover-color; /* Change color on hover */
 }
 
 // Nav menu styling
 .site-nav {
-  background: linear-gradient(135deg, $background-color-start 0%, $background-color-end 100%);  /* Background for the nav menu */
+  background: linear-gradient(135deg, $sepia-background-start 0%, $sepia-background-end 100%);  // Darker background for the nav
 }
 
 @media (min-width: 600px) {
   .site-nav {
-    background: none; /* Removes the background on the labels once they return to the nav bar */
+    background: none; // Transparent background for larger screens
   }
 } 
 
 .menu-icon svg {
-  fill: $primary-text-color !important;
+  fill: $sepia-text-color !important;  // Default text color for the nav trigger
 }
 
 .page-link {

@@ -1,0 +1,33 @@
+// Stop letting scrollbar push the content over when it appears
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+// Apply the warm/sepia dark mode gradient background
+body {
+  background: linear-gradient(135deg, $sepia-background-start 0%, $sepia-background-end 100%);
+  color: $sepia-text-color !important;  // Default text color
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $sepia-text-color !important;  // Default for headers
+}
+
+a {
+  color: $sepia-link-color !important;  // Links in warm tan
+}
+
+a:hover {
+  color: $sepia-link-hover-color !important;  // Links on hover in brighter tan
+}
+
+code, pre {
+  color: $sepia-text-color;
+  background-color: $sepia-code-background;  // Match the darker background
+}
+
+hr {
+  border-color: $sepia-hr-color;  // Horizontal rule color
+}
+
