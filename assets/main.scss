@@ -3,6 +3,109 @@
 ---
 
 @import "minima";
-@import "_variables";
-@import "_base";
-@import "_components";
+
+
+/* 
+
+Variables
+
+*/
+$background-start: #3b2f2f;  // Warm dark brown background start
+$background-end: #2e2626;    // Even darker brown background end
+$text-color: #e4d7c5;        // Light tan text color
+$link-color: #d1a57d;        // Warm tan link color
+$link-hover-color: #e7b98b;  // Brighter tan color on hover
+$code-background: #4a3b3b;   // Darker brown for code blocks
+$hr-color: #d1a57d;          // Tan color for horizontal rules
+
+
+/* 
+
+Base
+
+*/
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(135deg, $background-start 0%, $background-end 100%);
+  color: $text-color !important;
+}
+
+header {
+  border-top: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $text-color !important;
+}
+
+a {
+  color: $link-color !important;
+}
+
+a:hover {
+  color: $link-hover-color !important;
+}
+
+code, pre {
+  color: $text-color;
+  background-color: $code-background;
+}
+
+hr {
+  border-color: $hr-color;
+}
+
+
+/*
+
+Nav
+
+*/
+.site-nav {
+  background: linear-gradient(135deg, $background-start 0%, $background-end 100%);
+}
+
+@media (min-width: 600px) {
+  .site-nav {
+    background: none;
+  }
+} 
+
+.menu-icon svg {
+  fill: $text-color !important;
+}
+
+.page-link {
+  text-align: start;
+  margin-left: -4px !important;
+}
+
+
+/*
+
+RSS Link
+
+*/
+.rss-subscribe {
+  display: inline-flex;
+  
+}
+
+.rss-subscribe svg {
+  text-decoration: none; /* Ensure no underline on the icon */
+  width: 1.25em;
+  align-self: stretch;
+}
+
+.rss-subscribe::before {
+  content: "Feed";
+  margin-right: 0.25em;
+}
+
+.rss-subscribe:hover svg {
+  color: $link-hover-color; /* Change color on hover */
+}
