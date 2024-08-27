@@ -3,7 +3,7 @@ layout: post
 title: 'Python is not for everyone'
 description: "Python isn't for everyone? I disagree"
 date: 2024-08-24 15:15:07 -05:00
-categories: letters
+category: letter
 ---
 
 Dear Anon,

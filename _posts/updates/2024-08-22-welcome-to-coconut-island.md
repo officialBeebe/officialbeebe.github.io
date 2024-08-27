@@ -3,7 +3,7 @@ layout: post
 title: 'Welcome to Coconut Island!'
 description: 'Ditched React/JavaScript in favor of Jekyll/Ruby :3'
 date: 2024-08-22 21:26:19 -05:00
-categories: updates
+category: update
 ---
 
 I took the creative liberty of ditching development of the site in React/JavaScript in favor of Jekyll/Ruby; since this site is purely content-driven and read-only, I figured I'd give your CPU a break and ditch the JavaScript for now. I'm still trying to iron out exactly what I want to include, but I'm pretty much set on the following as of yet:
