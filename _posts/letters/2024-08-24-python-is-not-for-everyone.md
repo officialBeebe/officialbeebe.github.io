@@ -12,7 +12,13 @@ I felt that I should write you a note regarding your thought that Python is for 
 
 A little over a year ago, I started showing interest in software development, and a good friend of mine mentioned something about pillars and software development, well, I'm not sure if I ended up in the right place but I landed [here](https://www.freecodecamp.org/news/the-main-pillars-of-learning-programming-and-why-beginners-should-master-them-e04245c17c56/) and that was the start of an exciting journey for me as I ended up on the _freeCodeCamp_. I worked through the _HTML_ course and eventually stumbled upon Dr. Chuck's [Python for Everyone](https://www.py4e.com/) course and the rest is history.
 
-That one course opened up the Pandora's box of software development. Since then, I've worked on numerous projects, utilizing various paradigms, frameworks, and languages to build varrying projects, including CLI tools and scripts written with Node.js or Python; writing C++ sketches for Arduino circuits; building Diablo 2 runeword calculator with ElectronJS - a JavaScript framework based on Chromium; an OSRS Grand Exchange lookup using React and Express with my best friend's C# API; and the very same site you are reading this letter on, using Ruby and Jekyll to package my Markdown ramblings into static HTML pages.
+That one course opened up the Pandora's box of software development. Since then, I've worked on numerous projects, utilizing various paradigms, frameworks, and languages to build varrying projects, including:
+
+- CLI tools and scripts written with Node.js or Python
+- C++ sketches for Arduino circuits
+- Building a Diablo 2 runeword calculator with ElectronJS
+- An OSRS Grand Exchange lookup using React and Express with my buddy's C# API
+- The very same site you are reading this letter on, utilizing Ruby and Jekyll
 
 My point is that for many of those projects, I've used Python for various different use cases. For example, I copied and pasted a deeply nested table from [Pure Diablo](https://www.purediablo.com/diablo-2/runewords) containing all of the information I needed for my runeword calculator. Then, I used Beautiful Soup - one of the many libraries known to Python - to transform the data from the table into some custom JSON that I use locally for my Electron app; which was in fact prototyped as a CLI tool written in Python.
 
